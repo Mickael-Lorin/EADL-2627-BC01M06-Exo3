@@ -14,7 +14,7 @@ public class FraisDePort {
     private static final Montant SEUIL_FRANCO = Montant.euros(60.00);
 
     private static final List<Tranche> TRANCHES = List.of(
-            tranche(250, 3.90, 8.50, 14.00),
+            tranche(250000, 3.90, 8.50, 14.00),
             tranche(1_000, 5.90, 12.50, 22.00),
             tranche(5_000, 8.90, 19.90, 39.00),
             tranche(POIDS_MAXIMUM_GRAMMES, 14.90, 34.90, 79.00));
